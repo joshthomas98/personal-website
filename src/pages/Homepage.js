@@ -288,10 +288,13 @@ const Homepage = () => {
             <div className="section-title">
               <h2>Resume</h2>
               <p>
-                Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-                ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-                quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-                Quia fugiat sit in iste officiis commodi quidem hic quas.
+                During my studies, I gained hands-on experience in music
+                production, sound engineering, and songwriting. I collaborated
+                with a diverse range of musicians and artists, honing my skills
+                in teamwork, communication, and creative problem-solving. In
+                addition to my academic achievements, I was actively involved in
+                extracurricular activities, including organising and performing
+                in various music events.
               </p>
             </div>
             <div className="row">
@@ -333,8 +336,9 @@ const Homepage = () => {
                     South Wales immersed me in the dynamic world of music
                     production. From sound engineering intricacies to mastering
                     cutting-edge tools such as Logic Pro X and the industry
-                    standard Pro Tools, this program equipped me with essential
-                    skills for the evolving landscape of creative industries.
+                    standard Pro Tools, this programme equipped me with
+                    essential skills for the evolving landscape of creative
+                    industries.
                   </p>
                 </div>
                 <div className="resume-item">
@@ -346,7 +350,7 @@ const Homepage = () => {
                   <p>
                     In my MA in Songwriting at the University of South Wales, I
                     delved into the artistry of crafting lyrics and melodies.
-                    This transformative program honed my creative skills,
+                    This transformative programme honed my creative skills,
                     exploring the intricate balance between emotion and musical
                     expression.
                   </p>
@@ -355,55 +359,80 @@ const Homepage = () => {
               <div className="col-lg-6" data-aos="fade-up" data-aos-delay={100}>
                 <h3 className="resume-title">Professional Experience</h3>
                 <div className="resume-item">
-                  <h4>Senior graphic design specialist</h4>
-                  <h5>2019 - Present</h5>
+                  <h4>Acorn Digital (Part-time)</h4>
+                  <h5>September 2020 - April 2022</h5>
                   <p>
-                    <em>Experion, New York, NY </em>
+                    <em>
+                      Acorn Digital Ltd, (Part-time role after university and
+                      alongside playing in a band)
+                    </em>
                   </p>
                   <ul>
                     <li>
-                      Lead in the design, development, and implementation of the
-                      graphic, layout, and production communication materials
+                      Played a key role in maintaining CMS based portals hosted
+                      on behalf of clients, primarily using WordPress and
+                      custom-built solutions.
                     </li>
                     <li>
-                      Delegate tasks to the 7 members of the design team and
-                      provide counsel on all aspects of the project.{" "}
+                      Designed logos and graphics for clients, ensuring a
+                      visually appealing representation of their brand.
                     </li>
                     <li>
-                      Supervise the assessment of all graphic materials in order
-                      to ensure quality and accuracy of the design
+                      Implemented small development changes to existing products
+                      built by Acorn Digital using Python and Django.
                     </li>
                     <li>
-                      Oversee the efficient use of production project budgets
-                      ranging from $2,000 - $25,000
+                      Contributed to the design of basic content pages on
+                      web-based platforms for small companies.
+                    </li>
+                    <li>
+                      Executed basic administrative duties including generating
+                      invoices, chasing payments, and handling client inquiries.
                     </li>
                   </ul>
+                  <p>
+                    Developed a keen interest in coding during this period,
+                    dedicating significant time to online training courses on
+                    platforms like Udemy and YouTube. Focused primarily on
+                    web-based applications using React JS, Python, and the
+                    Django framework.
+                  </p>
                 </div>
+                <h3 className="resume-title">Professional Experience</h3>
                 <div className="resume-item">
-                  <h4>Graphic design specialist</h4>
-                  <h5>2017 - 2018</h5>
+                  <h4>Freelance Web Developer</h4>
+                  <h5>October 2022 - Present</h5>
                   <p>
-                    <em>Stepping Stone Advertising, New York, NY</em>
+                    <em>Self-Employed</em>
                   </p>
                   <ul>
                     <li>
-                      Developed numerous marketing programs (logos,
-                      brochures,infographics, presentations, and
-                      advertisements).
+                      Successfully collaborated with local businesses, including
+                      Pacific Supergym, Treforest Service Centre, and Tech Minds
+                      Consulting, to develop and deploy fully functional and
+                      visually appealing websites.
                     </li>
                     <li>
-                      Managed up to 5 projects or tasks at a given time while
-                      under pressure
+                      Leveraged newly acquired coding skills in ReactJS, NodeJS,
+                      and Python/Django to meet clients' specific requirements,
+                      ensuring optimal performance and user experience.
                     </li>
                     <li>
-                      Recommended and consulted with clients on the most
-                      appropriate graphic design
+                      Effectively utilised state management tools such as React
+                      Context API and Redux Toolkit to enhance the functionality
+                      and responsiveness of websites.
                     </li>
                     <li>
-                      Created 4+ design presentations and proposals a month for
-                      clients and account managers
+                      Monetised coding expertise by delivering quality web
+                      solutions for local businesses, contributing to their
+                      online presence and overall success.
                     </li>
                   </ul>
+                  <p>
+                    Continuously honing my skills and staying abreast of the
+                    latest advancements in web development to provide
+                    cutting-edge solutions for clients.
+                  </p>
                 </div>
               </div>
             </div>
