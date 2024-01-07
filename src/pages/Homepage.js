@@ -10,7 +10,7 @@ const Homepage = () => {
         <div className="hero-container" data-aos="fade-in">
           <h1>Josh Thomas</h1>
           <p>
-            I'm{" "}
+            Software Engineer & Musician
             <span
               className="typed"
               data-typed-items="Designer, Developer, Freelancer, Photographer"
@@ -26,10 +26,13 @@ const Homepage = () => {
             <div className="section-title">
               <h2>About</h2>
               <p>
-                Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-                ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-                quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-                Quia fugiat sit in iste officiis commodi quidem hic quas.
+                Hello, I'm Josh Thomas, a 25-year-old junior software engineer
+                and web developer based in Caerphilly. Passionate about crafting
+                digital experiences, I specialize in full-stack development
+                using technologies like HTML, CSS, JavaScript, React, NodeJs,
+                and Django. Beyond coding, my interests extend to bodybuilding,
+                boxing and exploring local history. Welcome to my portfolio,
+                where I blend creativity and technology to bring ideas to life.
               </p>
             </div>
             <div className="row">
@@ -44,29 +47,27 @@ const Homepage = () => {
                 className="col-lg-8 pt-4 pt-lg-0 content"
                 data-aos="fade-left"
               >
-                <h3>UI/UX Designer &amp; Web Developer.</h3>
-                <p className="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
+                <h3>Junior Software Engineer / Web Developer.</h3>
+                <p className="fst-italic">A few personal details...</p>
                 <div className="row">
                   <div className="col-lg-6">
                     <ul>
                       <li>
                         <i className="bi bi-chevron-right" />{" "}
-                        <strong>Birthday:</strong> <span>1 May 1995</span>
+                        <strong>Birthday:</strong> <span>24 June 1998</span>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right" />{" "}
-                        <strong>Website:</strong> <span>www.example.com</span>
+                        <strong>Website:</strong>{" "}
+                        <span>www.codingandmusicwithjosh.com</span>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right" />{" "}
-                        <strong>Phone:</strong> <span>+123 456 7890</span>
+                        <strong>Phone:</strong> <span>+44 7902 598774</span>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right" />{" "}
-                        <strong>City:</strong> <span>New York, USA</span>
+                        <strong>Town:</strong> <span>Caerphilly, UK</span>
                       </li>
                     </ul>
                   </div>
@@ -74,7 +75,7 @@ const Homepage = () => {
                     <ul>
                       <li>
                         <i className="bi bi-chevron-right" />{" "}
-                        <strong>Age:</strong> <span>30</span>
+                        <strong>Age:</strong> <span>25</span>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right" />{" "}
@@ -82,8 +83,8 @@ const Homepage = () => {
                       </li>
                       <li>
                         <i className="bi bi-chevron-right" />{" "}
-                        <strong>PhEmailone:</strong>{" "}
-                        <span>email@example.com</span>
+                        <strong>Email:</strong>{" "}
+                        <span>joshua.thomas98@hotmail.co.uk</span>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right" />{" "}
@@ -92,14 +93,17 @@ const Homepage = () => {
                     </ul>
                   </div>
                 </div>
+
+                <h5>
+                  <strong>Curious to Know More?</strong>
+                </h5>
                 <p>
-                  Officiis eligendi itaque labore et dolorum mollitia officiis
-                  optio vero. Quisquam sunt adipisci omnis et ut. Nulla
-                  accusantium dolor incidunt officia tempore. Et eius omnis.
-                  Cupiditate ut dicta maxime officiis quidem quia. Sed et
-                  consectetur qui quia repellendus itaque neque. Aliquid amet
-                  quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis
-                  culpa magni laudantium dolores.
+                  If you're intrigued and eager to learn more about the person
+                  behind the code, don't hesitate to reach out. I'm always open
+                  to connecting, sharing experiences, and exploring potential
+                  collaborations. Let's connect and delve deeper into the world
+                  of technology, creativity, and everything in between. Looking
+                  forward to the opportunity to connect with you!
                 </p>
               </div>
             </div>
@@ -912,23 +916,23 @@ const Homepage = () => {
                   <div className="address">
                     <i className="bi bi-geo-alt" />
                     <h4>Location:</h4>
-                    <p>A108 Adam Street, New York, NY 535022</p>
+                    <p>Bedwas, Caerphilly</p>
                   </div>
                   <div className="email">
                     <i className="bi bi-envelope" />
                     <h4>Email:</h4>
-                    <p>info@example.com</p>
+                    <p>joshua.thomas98@hotmail.co.uk</p>
                   </div>
                   <div className="phone">
                     <i className="bi bi-phone" />
                     <h4>Call:</h4>
-                    <p>+1 5589 55488 55s</p>
+                    <p>+44 7902 598774</p>
                   </div>
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-                    frameBorder={0}
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2499.745119373168!2d-3.1998!3d51.5928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e7f5b84e2cddf%3A0x14dcca94b02000c1!2sYour%20Location!5e0!3m2!1sen!2sus!4v1643012345678"
+                    frameborder="0"
                     style={{ border: 0, width: "100%", height: 290 }}
-                    allowFullScreen=""
+                    allowfullscreen=""
                   />
                 </div>
               </div>
@@ -999,25 +1003,7 @@ const Homepage = () => {
         {/* End Contact Section */}
       </main>
       {/* End #main */}
-      {/* ======= Footer ======= */}
-      <footer id="footer">
-        <div className="container">
-          <div className="copyright">
-            © Copyright{" "}
-            <strong>
-              <span>iPortfolio</span>
-            </strong>
-          </div>
-          <div className="credits">
-            {/* All the links in the footer should remain intact. */}
-            {/* You can delete the links only if you purchased the pro version. */}
-            {/* Licensing information: https://bootstrapmade.com/license/ */}
-            {/* Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ */}
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-          </div>
-        </div>
-      </footer>
-      {/* End  Footer */}
+
       <a
         href="#"
         className="back-to-top d-flex align-items-center justify-content-center"
