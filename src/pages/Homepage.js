@@ -1,4 +1,5 @@
 import React from "react";
+import SocialMediaIcons from "../components/SocialMediaIcons";
 
 const Homepage = () => {
   return (
@@ -9,16 +10,11 @@ const Homepage = () => {
       >
         <div className="hero-container" data-aos="fade-in">
           <h1>Josh Thomas</h1>
-          <p>
-            Software Engineer & Musician
-            <span
-              className="typed"
-              data-typed-items="Designer, Developer, Freelancer, Photographer"
-            />
-          </p>
+          <p>Software Engineer & Musician</p>
         </div>
       </section>
       {/* End Hero */}
+
       <main id="main">
         {/* ======= About Section ======= */}
         <section id="about" className="about">
@@ -28,7 +24,7 @@ const Homepage = () => {
               <p>
                 Hello, I'm Josh Thomas, a 25-year-old junior software engineer
                 and web developer based in Caerphilly. Passionate about crafting
-                digital experiences, I specialize in full-stack development
+                digital experiences, I specialise in full-stack development
                 using technologies like HTML, CSS, JavaScript, React, NodeJs,
                 and Django. Beyond coding, my interests extend to bodybuilding,
                 boxing and exploring local history. Welcome to my portfolio,
@@ -38,7 +34,7 @@ const Homepage = () => {
             <div className="row">
               <div className="col-lg-4" data-aos="fade-right">
                 <img
-                  src="assets/img/profile-img.jpg"
+                  src="../../images/single-pic-of-me.JPEG"
                   className="img-fluid"
                   alt=""
                 />
@@ -47,7 +43,7 @@ const Homepage = () => {
                 className="col-lg-8 pt-4 pt-lg-0 content"
                 data-aos="fade-left"
               >
-                <h3>Junior Software Engineer / Web Developer.</h3>
+                <h3>Junior Software Engineer / Web Developer</h3>
                 <p className="fst-italic">A few personal details...</p>
                 <div className="row">
                   <div className="col-lg-6">
@@ -88,7 +84,8 @@ const Homepage = () => {
                       </li>
                       <li>
                         <i className="bi bi-chevron-right" />{" "}
-                        <strong>Freelance:</strong> <span>Available</span>
+                        <strong>Alma mater:</strong>{" "}
+                        <span>University of South Wales</span>
                       </li>
                     </ul>
                   </div>
@@ -105,99 +102,16 @@ const Homepage = () => {
                   of technology, creativity, and everything in between. Looking
                   forward to the opportunity to connect with you!
                 </p>
+
+                <div className="pt-3">
+                  <SocialMediaIcons size={48} />
+                </div>
               </div>
             </div>
           </div>
         </section>
         {/* End About Section */}
-        {/* ======= Facts Section ======= */}
-        <section id="facts" className="facts">
-          <div className="container">
-            <div className="section-title">
-              <h2>Facts</h2>
-              <p>
-                Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-                ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-                quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-                Quia fugiat sit in iste officiis commodi quidem hic quas.
-              </p>
-            </div>
-            <div className="row no-gutters">
-              <div
-                className="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
-                data-aos="fade-up"
-              >
-                <div className="count-box">
-                  <i className="bi bi-emoji-smile" />
-                  <span
-                    data-purecounter-start={0}
-                    data-purecounter-end={232}
-                    data-purecounter-duration={1}
-                    className="purecounter"
-                  />
-                  <p>
-                    <strong>Happy Clients</strong> consequuntur quae
-                  </p>
-                </div>
-              </div>
-              <div
-                className="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
-                data-aos="fade-up"
-                data-aos-delay={100}
-              >
-                <div className="count-box">
-                  <i className="bi bi-journal-richtext" />
-                  <span
-                    data-purecounter-start={0}
-                    data-purecounter-end={521}
-                    data-purecounter-duration={1}
-                    className="purecounter"
-                  />
-                  <p>
-                    <strong>Projects</strong> adipisci atque cum quia aut
-                  </p>
-                </div>
-              </div>
-              <div
-                className="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
-                data-aos="fade-up"
-                data-aos-delay={200}
-              >
-                <div className="count-box">
-                  <i className="bi bi-headset" />
-                  <span
-                    data-purecounter-start={0}
-                    data-purecounter-end={1453}
-                    data-purecounter-duration={1}
-                    className="purecounter"
-                  />
-                  <p>
-                    <strong>Hours Of Support</strong> aut commodi quaerat
-                  </p>
-                </div>
-              </div>
-              <div
-                className="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
-                data-aos="fade-up"
-                data-aos-delay={300}
-              >
-                <div className="count-box">
-                  <i className="bi bi-people" />
-                  <span
-                    data-purecounter-start={0}
-                    data-purecounter-end={32}
-                    data-purecounter-duration={1}
-                    className="purecounter"
-                  />
-                  <p>
-                    <strong>Hard Workers</strong> rerum asperiores dolor
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* End Facts Section */}
+
         {/* ======= Skills Section ======= */}
         <section id="skills" className="skills section-bg">
           <div className="container">
@@ -211,98 +125,163 @@ const Homepage = () => {
               </p>
             </div>
             <div className="row skills-content">
-              <div className="col-lg-6" data-aos="fade-up">
-                <div className="progress">
-                  <span className="skill">
-                    HTML <i className="val">100%</i>
-                  </span>
-                  <div className="progress-bar-wrap">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      aria-valuenow={100}
-                      aria-valuemin={0}
-                      aria-valuemax={100}
-                    />
-                  </div>
-                </div>
-                <div className="progress">
-                  <span className="skill">
-                    CSS <i className="val">90%</i>
-                  </span>
-                  <div className="progress-bar-wrap">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      aria-valuenow={90}
-                      aria-valuemin={0}
-                      aria-valuemax={100}
-                    />
-                  </div>
-                </div>
-                <div className="progress">
-                  <span className="skill">
-                    JavaScript <i className="val">75%</i>
-                  </span>
-                  <div className="progress-bar-wrap">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      aria-valuenow={75}
-                      aria-valuemin={0}
-                      aria-valuemax={100}
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-6" data-aos="fade-up" data-aos-delay={100}>
-                <div className="progress">
-                  <span className="skill">
-                    PHP <i className="val">80%</i>
-                  </span>
-                  <div className="progress-bar-wrap">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      aria-valuenow={80}
-                      aria-valuemin={0}
-                      aria-valuemax={100}
-                    />
-                  </div>
-                </div>
-                <div className="progress">
-                  <span className="skill">
-                    WordPress/CMS <i className="val">90%</i>
-                  </span>
-                  <div className="progress-bar-wrap">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      aria-valuenow={90}
-                      aria-valuemin={0}
-                      aria-valuemax={100}
-                    />
-                  </div>
-                </div>
-                <div className="progress">
-                  <span className="skill">
-                    Photoshop <i className="val">55%</i>
-                  </span>
-                  <div className="progress-bar-wrap">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      aria-valuenow={55}
-                      aria-valuemin={0}
-                      aria-valuemax={100}
-                    />
-                  </div>
-                </div>
+              <div className="col-lg-12" data-aos="fade-up">
+                <table className="table">
+                  <thead>
+                    <tr>
+                      <th>Skill</th>
+                      <th>Examples of Usage</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <i className="fab fa-html5"></i> HTML
+                      </td>
+                      <td>
+                        Developed the structure and layout of multiple web pages
+                        using HTML. Ensured proper use of semantic tags for
+                        better accessibility and SEO.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <i className="fab fa-css3"></i> CSS/Bootstrap/Chakra UI
+                      </td>
+                      <td>
+                        Styled and designed responsive user interfaces using
+                        CSS, Bootstrap, and Chakra UI. Implemented custom styles
+                        to enhance the visual appeal and user experience.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <i className="fab fa-js"></i> JavaScript
+                      </td>
+                      <td>
+                        Built interactive features and functionality on websites
+                        using JavaScript while utilising modern JavaScript
+                        features for efficient development. Managed project
+                        dependencies and scripts using npm for streamlined
+                        package management.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <i className="fab fa-react"></i> React/JSX/Vite
+                      </td>
+                      <td>
+                        Developed dynamic and reusable components using React.
+                        Utilised JSX syntax and optimised performance with both
+                        Create React App and Vite for faster development builds.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <i className="fab fa-python"></i> Python/Django
+                      </td>
+                      <td>
+                        Built web applications using the Django framework with
+                        Python. Implemented backend logic, database models, and
+                        RESTful APIs.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <i className="fab fa-node"></i> Node.js/Express
+                      </td>
+                      <td>
+                        Built server-side applications using Node.js with the
+                        Express framework. Implemented RESTful APIs and handled
+                        asynchronous operations.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <i className="fab fa-aws"></i> AWS - Elastic
+                        Beanstalk/S3/EC2
+                      </td>
+                      <td>
+                        Deployed applications on AWS using Elastic Beanstalk,
+                        stored files in S3, and managed virtual servers on EC2.
+                        Ensured scalability, reliability, and security in the
+                        cloud environment.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <i className="fab fa-react"></i> React Context API/React
+                        Redux/Redux Toolkit
+                      </td>
+                      <td>
+                        Managed application state efficiently using React
+                        Context API and React Redux with Redux Toolkit.
+                        Implemented actions, reducers, and middleware for a
+                        scalable state management solution.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <i className="fab fa-wordpress"></i> WordPress
+                      </td>
+                      <td>
+                        Customised and developed WordPress themes to create
+                        unique and user-friendly websites. Implemented plugins
+                        and optimised performance for a seamless experience.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <i className="fas fa-mobile-alt"></i> Responsive Web
+                        Design
+                      </td>
+                      <td>
+                        Designed and developed websites with a focus on
+                        responsive web design. Ensured optimal user experience
+                        across various devices and screen sizes.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <i className="fab fa-git"></i> Git
+                      </td>
+                      <td>
+                        Utilised Git for version control in collaborative
+                        projects. Managed branches, resolved conflicts, and
+                        ensured a smooth development workflow.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <i className="fas fa-laptop-code"></i> Problem-solving
+                        and debugging
+                      </td>
+                      <td>
+                        Demonstrated strong problem-solving skills and effective
+                        debugging techniques. Resolved complex issues and
+                        optimised code for better performance.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <i className="fab fa-canva"></i> Basic graphic design
+                        using PlaceIt, Canva, and Adobe Photoshop
+                      </td>
+                      <td>
+                        Created visuals, images, and graphics using PlaceIt,
+                        Canva, and Adobe Photoshop for web projects. Enhanced
+                        overall aesthetics and user experience through basic
+                        graphic design.
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
         </section>
         {/* End Skills Section */}
+
         {/* ======= Resume Section ======= */}
         <section id="resume" className="resume">
           <div className="container">
@@ -317,47 +296,59 @@ const Homepage = () => {
             </div>
             <div className="row">
               <div className="col-lg-6" data-aos="fade-up">
-                <h3 className="resume-title">Sumary</h3>
+                <h3 className="resume-title">Summary</h3>
                 <div className="resume-item pb-0">
-                  <h4>Alex Smith</h4>
+                  <h4>Josh Thomas</h4>
                   <p>
                     <em>
-                      Innovative and deadline-driven Graphic Designer with 3+
-                      years of experience designing and developing user-centered
-                      digital/print marketing material from initial concept to
-                      final, polished deliverable.
+                      Motivated and enthusiastic Junior Web Developer with
+                      hands-on experience in HTML, CSS, Bootstrap, JavaScript
+                      (including npm), React, JSX, Vite, Python, Django, Node.js
+                      (Express), AWS (Elastic Beanstalk/S3/EC2), React Context
+                      API, React Redux/Redux Toolkit, Wordpress, and Git.
+                      Proficient in creating dynamic, responsive, and visually
+                      appealing websites. Skilled in problem-solving and
+                      effective communication. Seeking a challenging role to
+                      further enhance my technical and professional skills.
                     </em>
                   </p>
                   <ul>
-                    <li>Portland par 127,Orlando, FL</li>
-                    <li>(123) 456-7891</li>
-                    <li>alice.barkley@example.com</li>
+                    <li>Caerphilly, South Wales, UK</li>
+                    <li>+44 7902 598774</li>
+                    <li>joshua.thomas98@hotmail.co.uk</li>
                   </ul>
                 </div>
                 <h3 className="resume-title">Education</h3>
                 <div className="resume-item">
-                  <h4>Master of Fine Arts &amp; Graphic Design</h4>
-                  <h5>2015 - 2016</h5>
+                  <h4>
+                    Bachelor of Science &amp; Creative Industries Popular Music
+                    Technology
+                  </h4>
+                  <h5>2018 - 2019</h5>
                   <p>
-                    <em>Rochester Institute of Technology, Rochester, NY</em>
+                    <em>University of South Wales (Atrium), Cardiff</em>
                   </p>
                   <p>
-                    Qui deserunt veniam. Et sed aliquam labore tempore sed
-                    quisquam iusto autem sit. Ea vero voluptatum qui ut
-                    dignissimos deleniti nerada porti sand markend
+                    My BSc in Popular Music Technology at the University of
+                    South Wales immersed me in the dynamic world of music
+                    production. From sound engineering intricacies to mastering
+                    cutting-edge tools such as Logic Pro X and the industry
+                    standard Pro Tools, this program equipped me with essential
+                    skills for the evolving landscape of creative industries.
                   </p>
                 </div>
                 <div className="resume-item">
-                  <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-                  <h5>2010 - 2014</h5>
+                  <h4>Master of Arts &amp; Songwriting</h4>
+                  <h5>2019 - 2020</h5>
                   <p>
-                    <em>Rochester Institute of Technology, Rochester, NY</em>
+                    <em>University of South Wales (Atrium), Cardiff</em>
                   </p>
                   <p>
-                    Quia nobis sequi est occaecati aut. Repudiandae et iusto
-                    quae reiciendis et quis Eius vel ratione eius unde vitae
-                    rerum voluptates asperiores voluptatem Earum molestiae
-                    consequatur neque etlon sader mart dila
+                    In my MA in Songwriting at the University of South Wales, I
+                    delved into the artistry of crafting lyrics and melodies.
+                    This transformative program honed my creative skills,
+                    exploring the intricate balance between emotion and musical
+                    expression.
                   </p>
                 </div>
               </div>
@@ -419,6 +410,7 @@ const Homepage = () => {
           </div>
         </section>
         {/* End Resume Section */}
+
         {/* ======= Portfolio Section ======= */}
         <section id="portfolio" className="portfolio section-bg">
           <div className="container">
@@ -650,6 +642,7 @@ const Homepage = () => {
           </div>
         </section>
         {/* End Portfolio Section */}
+
         {/* ======= Services Section ======= */}
         <section id="services" className="services">
           <div className="container">
@@ -759,6 +752,7 @@ const Homepage = () => {
           </div>
         </section>
         {/* End Services Section */}
+
         {/* ======= Testimonials Section ======= */}
         <section id="testimonials" className="testimonials section-bg">
           <div className="container">
@@ -898,6 +892,7 @@ const Homepage = () => {
           </div>
         </section>
         {/* End Testimonials Section */}
+
         {/* ======= Contact Section ======= */}
         <section id="contact" className="contact">
           <div className="container">

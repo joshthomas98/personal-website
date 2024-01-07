@@ -42,9 +42,7 @@ const NavbarComponent = () => {
       <Navbar className="text-navbar bg-dark navbar-dark" expand="lg">
         <Container>
           <Navbar.Brand as={Link} to="/">
-            <a href="#" class="navbar-brand">
-              Josh Thomas
-            </a>
+            Josh Thomas
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbar-nav">
             {hamburgerIcon}

@@ -36,10 +36,9 @@ export default function App() {
           </MDBCol>
         </MDBRow>
       </MDBContainer>
-      <div className="text-center pb-2">
+      <div className="text-center pb-4">
         © 2023 Copyright {""}
         <a href="https://pacificfitness.co.uk/">Josh Thomas</a>
-        <p className="pt-1">Designed and Developed by Tech Minds Consulting</p>
       </div>
     </MDBFooter>
   );

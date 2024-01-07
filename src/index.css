@@ -1110,3 +1110,26 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+/* Social media icons */
+.facebook-icon:hover {
+  color: #1877f2; /* Facebook official color */
+}
+
+.instagram-icon:hover {
+  color: #e1306c; /* Instagram official color */
+}
+
+.twitter-icon:hover {
+  color: #1da1f2; /* Twitter official color */
+}
+
+.youtube-icon:hover {
+  color: #ff0000; /* YouTube official red color */
+}
+
+/* In your CSS file or within your React component */
+.text-container {
+  max-width: 1100px; /* Adjust the value to your preferred maximum width */
+  margin: 0 auto; /* Center the content horizontally */
+}
