@@ -118,10 +118,10 @@ const Homepage = () => {
             <div className="section-title">
               <h2>Skills</h2>
               <p>
-                Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-                ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-                quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-                Quia fugiat sit in iste officiis commodi quidem hic quas.
+                Aspiring junior software engineer and web developer, I bring a
+                dynamic skill set encompassing a range of modern web development
+                technologies. Eager to contribute and learn in a collaborative
+                and growth-focused environment.
               </p>
             </div>
             <div className="row skills-content">
@@ -174,6 +174,17 @@ const Homepage = () => {
                         Developed dynamic and reusable components using React.
                         Utilised JSX syntax and optimised performance with both
                         Create React App and Vite for faster development builds.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <i className="fab fa-react"></i> React Native/Expo
+                      </td>
+                      <td>
+                        Built several basic cross-platform mobile applications
+                        using React Native and Expo, demonstrating hands-on
+                        experience and proficiency in mobile app development
+                        with these technologies.
                       </td>
                     </tr>
                     <tr>
@@ -246,7 +257,7 @@ const Homepage = () => {
                         <i className="fab fa-git"></i> Git
                       </td>
                       <td>
-                        Utilised Git for version control in collaborative
+                        Utilised Git for version control across a multitude of
                         projects. Managed branches, resolved conflicts, and
                         ensured a smooth development workflow.
                       </td>
