@@ -424,8 +424,8 @@ const Homepage = () => {
                       visually appealing websites.
                     </li>
                     <li>
-                      Leveraged newly acquired coding skills in ReactJS, NodeJS,
-                      and Python/Django to meet clients' specific requirements,
+                      Leveraged coding skills in ReactJS, NodeJS, and
+                      Python/Django to meet clients' specific requirements,
                       ensuring optimal performance and user experience.
                     </li>
                     <li>
@@ -434,7 +434,7 @@ const Homepage = () => {
                       and responsiveness of websites.
                     </li>
                     <li>
-                      Monetised coding expertise by delivering quality web
+                      Monetised coding knowledge by delivering quality web
                       solutions for local businesses, contributing to their
                       online presence and overall success.
                     </li>
